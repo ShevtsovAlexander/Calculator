@@ -3,7 +3,7 @@ const userInput = document.querySelector('#user_input')
 var expr = "";
 
 press = (num) => {
-    console.log(expr += num);
+    expr += num;
     userInput.value = expr;
 }
 equal = () => {
